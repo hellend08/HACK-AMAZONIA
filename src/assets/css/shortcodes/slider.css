@@ -20,7 +20,9 @@
     text-transform: capitalize;
 }
 .shop-img {
-    position: relative;
+    /* position: relative; */
+    height:300px;
+    width: 100%;
 }
 .slider-text > a {
     background-color: #222;

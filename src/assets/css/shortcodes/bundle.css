@@ -1380,7 +1380,14 @@ textarea:focus {
     background: #fff !important;
 }
 .gray-bg {
-    background: #f6f6f6 !important;
+    /* background: #f6f6f6 !important; */
+    background: url('../../img/folder/shop2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 350px;
+    margin-top: 30px;
+    filter: opacity(75%);
 }
 .blue-bg {
     background: #4FC1F0 !important;
