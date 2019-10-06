@@ -2,22 +2,31 @@
     background-position: center center;
     background-size: cover;
     position: relative;
+    background-image: url("../../img/shipibos.jpg");
+    /* filter: opacity(75%); */
 }
 .slider-text {
     display: block;
     position: relative;
     z-index: 9;
 }
-.slider-text h2 {
+.slider-text h2{
     color: #222;
     font-size: 95px;
-    font-weight: normal;
+    font-weight: 550;
     line-height: 1;
     text-transform: capitalize;
+
+}
+#alaxpacha {
+    filter: none !important;
+    color: #ffffff;
 }
 .slider-text > h3 {
     margin: 20px 0 60px;
     text-transform: capitalize;
+    color: #202020;
+    font-weight: 600;
 }
 .shop-img {
     /* position: relative; */
@@ -108,7 +117,9 @@
     padding-top: 116px;
 }
 .slider-area.style-1 {
-    padding: 214px 0 160px;
+    padding: 124px 0 120px;
+    margin: 40px 0 150px;
+    filter: opacity(75%);
 }
 
 .slider-style-5 .slider-text.style-2 {
